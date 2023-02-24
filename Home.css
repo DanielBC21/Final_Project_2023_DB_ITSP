@@ -1,0 +1,179 @@
+/* Nav bar all css code*/
+#nabbar{
+    background-color: #224870;
+    overflow: hidden;
+    display: flex;
+  justify-content: space-between;
+ /* justify-content: flex-end;*/
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  padding: 0 0.6rem 0 0rem;   
+}
+
+/*Hover over Nav bar*/
+#nabbar li:hover{
+  background-color: #143150;
+}
+
+a li:active{
+  background-color: #748067;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+    overflow: auto;
+   
+
+    
+  }
+li{
+    padding: 0% 0.8% 0% 0.8%;
+    text-align: center;
+}
+
+/*Responsive ids*/
+#ipad{
+  color: white;
+
+}
+#phone{
+  color: white;
+}
+#hamlogo{
+  color: white;
+}
+
+/* Desktop breakpoint*/
+@media only screen and (min-width: 1280px) {
+  #hamlogo{
+    display: none;
+  }
+  }
+
+  /* Ipad breakpoint*/
+
+@media only screen and (max-width: 1279px) {
+  #ipad {
+    display: none;
+    justify-content: flex-end;
+  }
+  
+  ul{
+    justify-content: flex-end;
+  }
+}
+
+
+@media only screen and (max-width: 670px) and (min-width:460px){
+  #phone {
+    display: none;
+    justify-content: flex-end;
+  }
+  ul{
+    justify-content: flex-end;
+    font-size: 30px;
+  }
+  #hamlogo{
+    width: 70px;
+    height: 70px;
+  }
+  #logo{
+    width: 200px;
+    height: 90px;
+  }
+
+}
+
+/* Mobile breakpoint*/
+@media only screen and (max-width: 460px) {
+  #phone {
+    display: none;
+    justify-content: flex-end;
+  }
+  ul{
+    justify-content: flex-end;
+    font-size: 20px;
+  }
+  #hamlogo{
+    width: 50px;
+    height: 50px;
+  }
+  #logo{
+    width: 260px;
+    height: 70px;
+  }
+  .toptext{
+    font-size: 10px;
+  }
+}
+
+
+/* End of Nav bar code*/
+
+
+.toptext{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: white;
+  background-color: #748067;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.backimg{
+  background-color: #11294D;
+}
+
+.robotimg{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.robot{
+  align-items: center;
+  width: 100%;
+}
+
+.backimgbtn{
+
+  justify-content: space-between;
+  display: flex;
+}
+
+.btnimg{
+  align-items: center;
+  width: 100%;
+
+  }
+
+
+/*Footer*/
+#mainfotter{
+  background-color: #224870;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 0 0 10px;
+  margin-top: 10px;
+  font-size: 18px; 
+}
+.fotlogoimg{
+  width: 90%;
+  background-color: white;
+}
+
+#divlogofot{
+  background-position: absolute;
+  display: flex;
+}
