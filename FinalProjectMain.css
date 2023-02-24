@@ -1,0 +1,267 @@
+/* Nav bar all css code*/
+#nabbar{
+    background-color: #224870;
+    overflow: hidden;
+    display: flex;
+  justify-content: space-between;
+ /* justify-content: flex-end;*/
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  padding: 0 0.6rem 0 0rem;   
+}
+
+/*Hover over Nav bar*/
+#nabbar li:hover{
+  background-color: #143150;
+}
+
+#nabbar li:active{
+  background-color: #748067;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+    overflow: auto;
+   
+
+    
+  }
+li{
+    padding: 0% 0.8% 0% 0.8%;
+    text-align: center;
+}
+
+/*#logo{
+    justify-content: flex-start;
+    overflow: hidden;
+    display: flex;
+}*/
+
+/*Images across the site*/
+.acrossimgtop{
+  width: 100%;
+}
+.acrossimgm{
+  width: 100%;
+  height: 10px;
+}
+
+
+/*Responsive ids*/
+#ipad{
+  color: white;
+
+}
+#phone{
+  color: white;
+}
+#hamlogo{
+  color: white;
+}
+
+/* Desktop breakpoint*/
+@media only screen and (min-width: 1280px) {
+  #hamlogo{
+    display: none;
+  }
+  }
+
+  /* Ipad breakpoint*/
+
+@media only screen and (max-width: 1279px) {
+  #ipad {
+    display: none;
+    justify-content: flex-end;
+  }
+  
+  ul{
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (max-width: 670px) and (min-width:460px){
+  #phone {
+    display: none;
+    justify-content: flex-end;
+  }
+  ul{
+    justify-content: flex-end;
+    font-size: 30px;
+  }
+  #hamlogo{
+    width: 70px;
+    height: 70px;
+  }
+  #logo{
+    width: 200px;
+    height: 90px;
+  }
+
+}
+/* Mobile breakpoint*/
+@media only screen and (max-width: 460px) {
+  #phone {
+    display: none;
+    justify-content: flex-end;
+  }
+  ul{
+    justify-content: flex-end;
+    font-size: 20px;
+  }
+  #hamlogo{
+    width: 50px;
+    height: 50px;
+  }
+  #logo{
+    width: 260px;
+    height: 70px;
+  }
+}
+
+
+/* End of Nav bar code*/
+
+/*Top Image*/
+#topimg{
+  padding-top: 8px;
+}
+
+/* Our Services Text*/
+
+#headtext{
+  color: black;
+  text-align: center;
+  font-size:xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+#headinf{
+  color: black;
+  text-align: center;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Our Services boxes*/
+#mainboxes{
+  overflow: hidden;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicebox{
+  width: 250px;
+  padding: 50px 40px 50px 40px;
+  margin: 20px;
+  background-color: #748067;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-position: absolute;
+  font-weight: bolder;
+ 
+}
+.textp{
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+ /* opacity: 0.6;*/
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+/*BLUE SUPPORT BOXES*/
+
+#mainboxblue{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blueserviceb{
+  width: 950px;
+    margin: 50px;
+    background-color: #224870;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position: absolute;
+    font-weight: bolder;
+}
+
+/*Button tools image*/
+
+.acrossomgbtn{
+  width: 100%;
+  height: 135px;
+}
+
+/*Frequently asked questions section*/
+
+#freqtop{
+  overflow: hidden;
+  height: 35px;
+  margin-top: 25px;
+  padding: 0 0 20px 20px;
+  background-color: #748067;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+#questions{
+  overflow: hidden;
+  margin-top: 5px;
+  padding: 10px 0 15px 20px;
+  background-color: #748067;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.qanswer{
+color: darkblue;
+}
+
+body{
+    background-color: #F4FFF8;
+    
+}
+
+/*Footer*/
+#mainfotter{
+  background-color: #224870;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 0 0 10px;
+  margin-top: 10px;
+  font-size: 18px; 
+}
+.fotlogoimg{
+  width: 90%;
+  background-color: white;
+}
+
+#divlogofot{
+  background-position: absolute;
+  display: flex;
+}
