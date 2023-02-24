@@ -102,6 +102,7 @@ li{
   }
 
 }
+
 /* Mobile breakpoint*/
 @media only screen and (max-width: 460px) {
   #phone {
@@ -171,6 +172,7 @@ li{
   font-weight: bolder;
  
 }
+
 .textp{
   margin: 30px;
   background-color: #ffffff;
@@ -180,6 +182,43 @@ li{
   font-weight: bold;
   color: #000000;
 }
+
+@media only screen and (max-width: 780px) {
+ .servicebox{
+  width: 100px;
+  font-size: 13px;
+ }
+ .textp{
+  margin: 10px;
+  margin: 2%;
+ }
+
+}
+@media only screen and (max-width: 643px) {
+  .servicebox{
+   width: 80px;
+   font-size: 10px;
+  }
+  .textp{
+    margin: 8px;
+    margin: 0.5%;
+   }
+ 
+ }
+ @media only screen and (max-width: 580px) {
+  .servicebox{
+   width: 50px;
+   font-size: 7px;
+   margin: 5px;
+  }
+  .textp{
+    margin: 6px;
+    margin: 0.2%;
+   }
+ 
+
+ 
+ }
 
 /*BLUE SUPPORT BOXES*/
 
@@ -203,6 +242,31 @@ li{
     background-position: absolute;
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 780px) {
+  .blueserviceb{
+    width: 700px;
+    font-size: 15px;
+    margin: 40px;
+  }
+ 
+ }
+ @media only screen and (max-width: 700px) {
+  .blueserviceb{
+    width: 600px;
+    font-size: 11px;
+    margin: 35px;
+  }
+ 
+ }
+ @media only screen and (max-width: 580px) {
+  .blueserviceb{
+    width: 400px;
+    font-size: 7px;
+    margin: 25px;
+  }
+ 
+ }
 
 /*Button tools image*/
 
