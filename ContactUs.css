@@ -1,0 +1,208 @@
+/* Nav bar all css code*/
+#nabbar{
+    background-color: #224870;
+    overflow: hidden;
+    display: flex;
+  justify-content: space-between;
+ /* justify-content: flex-end;*/
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  padding: 0 0.6rem 0 0rem;   
+}
+
+/*Hover over Nav bar*/
+#nabbar li:hover{
+  background-color: #143150;
+}
+
+a li:active{
+  background-color: #748067;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+    overflow: auto;
+   
+
+    
+  }
+li{
+    padding: 0% 0.8% 0% 0.8%;
+    text-align: center;
+}
+
+/*Responsive ids*/
+#ipad{
+  color: white;
+
+}
+#phone{
+  color: white;
+}
+#hamlogo{
+  color: white;
+}
+
+/* Desktop breakpoint*/
+@media only screen and (min-width: 1280px) {
+  #hamlogo{
+    display: none;
+  }
+  }
+
+  /* Ipad breakpoint*/
+
+@media only screen and (max-width: 1279px) {
+  #ipad {
+    display: none;
+    justify-content: flex-end;
+  }
+  
+  ul{
+    justify-content: flex-end;
+  }
+}
+
+
+@media only screen and (max-width: 670px) and (min-width:460px){
+  #phone {
+    display: none;
+    justify-content: flex-end;
+  }
+  ul{
+    justify-content: flex-end;
+    font-size: 30px;
+  }
+  #hamlogo{
+    width: 70px;
+    height: 70px;
+  }
+  #logo{
+    width: 200px;
+    height: 90px;
+  }
+
+}
+
+/* Mobile breakpoint*/
+@media only screen and (max-width: 460px) {
+  #phone {
+    display: none;
+    justify-content: flex-end;
+  }
+  ul{
+    justify-content: flex-end;
+    font-size: 20px;
+  }
+  #hamlogo{
+    width: 50px;
+    height: 50px;
+  }
+  #logo{
+    width: 260px;
+    height: 70px;
+  }
+  .toptext{
+    font-size: 10px;
+  }
+}
+
+
+/* End of Nav bar code*/
+
+/*Contact us boxes*/
+
+#contact{
+    overflow: hidden;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contactbox{
+    width: 100%;
+    padding: 50px 40px 50px 40px;
+    margin: 20px;
+    background-color: #748067;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    flex-direction: row;
+    background-position: absolute;
+    font-weight: bolder;
+   
+  }
+  .imgcontact{
+    width: 100%;
+  }
+  
+  .textp{
+    font-size: 25px;
+    color: white;
+  }
+
+
+  /*Form*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #224870;
+  padding: 20px;
+}
+
+
+
+/*Footer*/
+#mainfotter{
+  background-color: #224870;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 0 0 10px;
+  margin-top: 10px;
+  font-size: 18px; 
+}
+.fotlogoimg{
+  width: 90%;
+  background-color: white;
+}
+
+#divlogofot{
+  background-position: absolute;
+  display: flex;
+}
+
+
