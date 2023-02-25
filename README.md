@@ -1,15 +1,16 @@
 # Final_Project_2023_DB_ITSP
-# Daniels-Final-Project-2023
 YORKU FULL STACK WEB DEVELOPER FINAL PROJECT.
 
 # Application Name:
 *DB Tech Support*
 
 ## User Stories
+
 #### Customer:
-As a tech device owner, I want to be able to find a place and a solution, so that I can fix my defective device. 
+As an owner of a defective device, I want to be able to find and pay for a service provider that can help me fix my device.
+
 #### Admin: 
-As a service provider, I want to be able to add contacts and companies information, so that more users can utilize our services and pay the fees.
+As a service provider, I want to be able to add my company contact information, so that more users will be able to contact us to book an appointment to fix their device.
 
 ## Figma Design Link:
 
